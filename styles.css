@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;    
+}
+
+.pageHeader {
+    background-color: rgb(243, 184, 162);
+    padding: .5em;
+    font-size: 4em;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+}
+
+body {
+    background-image: url("https://www.letseatcake.com/wp-content/uploads/2020/02/Best-Coffee-Shops-in-Nashville.jpg");
+}
+
+.list {
+    padding: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    align-items: baseline;
+    flex-basis: 500%;
+}
+
+.shop {
+    margin: 20px;
+    background-color: rgb(243, 184, 162);
+    padding: 10px;
+    border: 5px solid slategray;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+h1:hover {
+    color: salmon;
+}
+
+
+p {
+    padding: 5px;
+}
+
+p:hover {
+    color: sienna;
+}
+
+article:hover {
+    background-color:azure;
+}
+
+.foot {
+    color: rgb(55, 58, 58);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(243, 184, 162);
+    padding: .5em;
+}
+a:link {
+    color: slategray;
+}
+
+a:hover {
+    color:salmon;
+}
